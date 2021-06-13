@@ -16,7 +16,7 @@ Compiling, Training, and Evaluating the Model
 The Table below describes changes that were made within the different models.  “Opt” is short for optimization so we can tell what was changed in each file. 
 
 
-
+![image](model_changes.png)
 
 
 ## Summary: 
