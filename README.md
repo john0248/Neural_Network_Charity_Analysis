@@ -1,20 +1,25 @@
 # Neural_Network_Charity_Analysis
 ## Overview of the analysis: 
 
-Explain the purpose of this analysis.
+Use our knowledge of machine learning and neural networks to create a model predicting successful funding of an applicant. Alphabet Soup our client provided more than 34,000 organizations which have requested funds.
+
 
 ## Results: 
-Using bulleted lists and images to support your answers, address the following questions.
+The first goal was to look at the data given and decide what variables were of interest. 
 
 Data Preprocessing
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
+*  Our target variable was IS_SUCCESSFUL.  This variable was used to train the model to predict for future use. 
+*  In the first model, we removed EIN and NAME. 
+
 Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
+
+The Table below describes changes that were made within the different models.  “Opt” is short for optimization so we can tell what was changed in each file. 
+
+
+
+
 
 ## Summary: 
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+The different models were unable to achieve greater than 75% accuracy.  In fact, the best performance was seen in the first model generated.  The accuracy difference between the model was little expect when I adjusted what activation function was used in the hidden and output layers.  The keys to getting better accuracy might be in removing more columns that are not helpful.  
+
